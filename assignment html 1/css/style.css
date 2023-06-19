@@ -1,0 +1,154 @@
+/* this will help to show my poster and the original post on the same horizontal level */
+.posterPage{
+    display: flex;
+}
+/* this will set the image as a background which is the orgianl poster in the div with class mainArea2 and setting the dimensions of the div  */
+.mainArea2{
+    background-image: url("../img/original.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 800px;  
+    position: absolute;
+    left: 1000px;
+}
+.compare>div:nth-child(1){
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    font-size: 50px;
+    color: rgb(86, 27, 27);
+    
+}
+/* this is  to center the content in all the div's  */
+div{
+    text-align: center;
+    color: white;
+}
+/* this will set the image as a background in the div with class mainArea and setting the dimensions of the div  */
+.posterPage>.mainArea{
+    background-image: url("../img/poster.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 800px;  
+}
+/* this is for the fox fox studio logo */
+.posterPage>.mainArea>header>div:nth-child(1){
+    position: absolute;
+    top:14px;
+    left:22px;
+}
+/* this is for the text in the header */
+.posterPage>.mainArea>header>a>h2{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    position: absolute;
+    top: -10px;
+    left: 100px;
+    font-size:x-large;
+    font-weight: 400;
+}
+/* this is for the rapchik logo */
+.posterPage>.mainArea>header>div:nth-child(3){
+    position: absolute;
+    top:-19px;
+    left:   434px;
+}
+/* this is for setting the text style,font style of the first part of the main  */
+.posterPage>.mainArea>main>div>div{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+}
+/* these next 4 part will get the first part of the main in their respective position */
+.posterPage>.mainArea>main>div>div{
+    position: absolute;
+}
+.posterPage>.mainArea>main>div>div:nth-child(1){
+    top: 78px;
+    left: 234px;
+}
+.posterPage>.mainArea>main>div>div:nth-child(2){
+    top: 130px;
+    left: 230px;
+}
+.posterPage>.mainArea>main>div>div:nth-child(3){
+    top: 186px;
+    left: 234px;
+}
+/* this will set the set the font ,text and position position property where the studios name is mentioned */
+.posterPage>.mainArea>main>section:nth-child(2)>div:nth-child(1){
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    position: absolute;
+    top: 610px;
+    left: 122px;
+}
+/* the next 2 part will set font,text and position property of the movie name */
+.posterPage>.mainArea>main>section:nth-child(2)>a>h3:nth-child(1){
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 45px;
+    font-weight: 900;
+    position: absolute;
+    top: 585px;
+    left: 110px;
+}
+.posterPage>.mainArea>main>section:nth-child(2)>a>h3:nth-child(2) {
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 900;
+    position: absolute;
+    top: 566px;
+    left: 70px;
+    font-size: 88px;
+} 
+/* this will set the set the font ,text and position position property where the writers name is mentioned */
+.posterPage>.mainArea>main>section:nth-child(2)>div:nth-child(3) {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    position: absolute;
+    top: 738px;
+    left: 55px;
+}
+/* this will set the text the text in the div in the footer to its desired position and size */
+.posterPage>.mainArea>footer>div:nth-child(1){
+    font-family: 'Oswald', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    position: absolute;
+    top: 765px;
+    left: 72px;
+}
+/* this will be set the facebook svg to its position */
+.posterPage>.mainArea>footer>div:nth-child(2){
+    position: absolute;
+    top:770px;
+    left: 258px;
+}
+/* this will be set the youtube svg to its position */
+.posterPage>.mainArea>footer>div:nth-child(3){
+    position: absolute;
+    top:770px;
+    left: 286px;
+}
+/* this will set the div which contain only 'hotstar' text to its position and will also set its size and font */
+.posterPage>.mainArea>footer>div:nth-child(4){
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    top:766px;
+    left: 320px;
+}
+/* the next 2 part will set the saregama img to its position as well as set its size according to the original size */
+.posterPage>.mainArea>footer>div:nth-child(5)>img{
+    height: 34px;
+}
+.posterPage>.mainArea>footer>div:nth-child(5){
+    position: absolute;
+    top:767px;
+    left:449px;
+}
